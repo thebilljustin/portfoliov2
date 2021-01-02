@@ -1,22 +1,18 @@
 <template>
 	<div class="banner">
 		<div class="content">
-			<div class="circle"></div>
-			<h1>Hi. I'm <span>Bill Justin</span> <br /> I create professional websites.</h1>
+			<h1>Hi. I'm <span>Bill Justin</span>.<br>I create professional websites.</h1>
 			<div class="links">
-				<a href="#" data-text="about">About Me</a>
-				 <a href="#" data-text="contact">Contact</a>
-				<a href="#" data-text="portfolio">Portfolio</a>
-				
+				<a href="#" data-text="about">about me</a>
+				<a href="#" data-text="contact">contact</a>
+				<a href="#" data-text="portfolio">portfolio</a>
 			</div>
 		</div>
 	</div>
 </template>
 
 <script>
-
 import VanillaTilt from 'vanilla-tilt'
-
 export default {
 	name: 'Home',
 	data() 
@@ -36,7 +32,6 @@ export default {
 	}
 }
 </script>
-
 <style>
 	body {
 		overflow-y: hidden; 
